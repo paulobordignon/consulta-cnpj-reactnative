@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "primeiroapp2",
-    "slug": "primeiroapp2",
+    "name": "consultaCNPJ",
+    "slug": "consultacnpj",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +17,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.consultaCNPJ.consultaCNPJ"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "package": "com.consultaCNPJ.consultaCNPJ",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
