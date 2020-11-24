@@ -5,8 +5,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 const { Navigator, Screen } = createStackNavigator();
 
-import Main from './pages/Main';
-import ReadQRCode from './pages/ReadQRCode';
+import Main from './pages/Landing/index';
+import SearchCnpj from './pages/SearchCnpj/index';
 
 export default function Routes() {
   return (
@@ -24,8 +24,8 @@ export default function Routes() {
         />
 
         <Screen
-          name="ReadQRCode"
-          component={ReadQRCode}
+          name="SearchCnpj"
+          component={SearchCnpj}
         />
       </Navigator>
     </NavigationContainer>
