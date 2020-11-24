@@ -21,3 +21,7 @@ yarn start
 ```
 
 Para executar o aplicativo dentro do seu dispositivo, baixar o expo e ler o QRCode exibido após a execução do último comando listado acima.
+
+### Demonstração do projeto
+
+<img src="https://i.picasion.com/pic90/af4ff14c0762422f7c4dc48f6275939d.gif" width="300" height="633" border="0"/>
